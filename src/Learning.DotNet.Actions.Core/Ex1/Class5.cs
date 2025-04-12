@@ -1,31 +1,5 @@
-﻿namespace Learning.DotNet.Actions.Core;
+﻿namespace Learning.DotNet.Actions.Core.Ex5;
 
-public class Class1
-{
-
-}
-
-public class Calculator
-{
-    public int Add(int a, int b)
-    {
-        return a + b;
-    }
-    public int Subtract(int a, int b)
-    {
-        return a - b;
-    }
-    public int Multiply(int a, int b)
-    {
-        return a * b;
-    }
-    public double Divide(int a, int b)
-    {
-        if (b == 0)
-            throw new DivideByZeroException("Cannot divide by zero.");
-        return (double)a / b;
-    }
-}
 public class Class0001 { public void DoNothing() { } }
 public class Class0002 { public void DoNothing() { } }
 public class Class0003 { public void DoNothing() { } }
