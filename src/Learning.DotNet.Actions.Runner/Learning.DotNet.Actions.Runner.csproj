@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="ProcessX" Version="1.5.6" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Learning.DotNet.Actions.Core\Learning.DotNet.Actions.Core.csproj" />
     <ProjectReference Include="..\Learning.DotNet.Actions.GraphApi\Learning.DotNet.Actions.GraphApi.csproj" />
   </ItemGroup>
